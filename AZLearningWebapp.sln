@@ -13,6 +13,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobManagement", "BlobManag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.DotNetSDK", "CosmosDB.DotNetSDK\CosmosDB.DotNetSDK.csproj", "{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzWebAppAutnentication", "AzWebAppAutnentication\AzWebAppAutnentication.csproj", "{5CC515C9-3E23-4024-9B8A-1C718DD99880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzWebAppAuthMVC", "AzWebAppAuthMVC\AzWebAppAuthMVC.csproj", "{7B724C8B-33CA-4504-83C9-7753F4CD5261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSALAuthentication", "MSALAuthentication\MSALAuthentication.csproj", "{AC5375B3-CFC8-464A-B08D-147067DB62E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzApplicationInsight", "AzApplicationInsight\AzApplicationInsight.csproj", "{540B3535-85CF-453D-98B3-D25DDCA0C2FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +47,22 @@ Global
 		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC515C9-3E23-4024-9B8A-1C718DD99880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC515C9-3E23-4024-9B8A-1C718DD99880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC515C9-3E23-4024-9B8A-1C718DD99880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC515C9-3E23-4024-9B8A-1C718DD99880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B724C8B-33CA-4504-83C9-7753F4CD5261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B724C8B-33CA-4504-83C9-7753F4CD5261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B724C8B-33CA-4504-83C9-7753F4CD5261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B724C8B-33CA-4504-83C9-7753F4CD5261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5375B3-CFC8-464A-B08D-147067DB62E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5375B3-CFC8-464A-B08D-147067DB62E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5375B3-CFC8-464A-B08D-147067DB62E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5375B3-CFC8-464A-B08D-147067DB62E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540B3535-85CF-453D-98B3-D25DDCA0C2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540B3535-85CF-453D-98B3-D25DDCA0C2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540B3535-85CF-453D-98B3-D25DDCA0C2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540B3535-85CF-453D-98B3-D25DDCA0C2FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
