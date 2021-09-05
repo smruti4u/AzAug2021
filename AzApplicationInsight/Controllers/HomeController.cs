@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace AzApplicationInsight.Controllers
@@ -18,13 +19,21 @@ namespace AzApplicationInsight.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            await this.CallGithub();
             return View();
+        }
+
+        private async Task CallGithub()
+        {
+            HttpClient client = new HttpClient();
+            await client.GetAsync("https://api.github.com/users");
         }
 
         public IActionResult Privacy()
         {
+            throw new Exception("Something Went Wrong");
             return View();
         }
 

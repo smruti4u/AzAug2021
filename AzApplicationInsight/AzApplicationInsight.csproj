@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>3bd89ef0-8d69-4ea8-aa27-0510010b9aa3</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/59d3083e-9fdc-419c-beef-26dc6d6f55c5/resourceGroups/az-learning/providers/microsoft.insights/components/azaugappinsight</ApplicationInsightsResourceId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
